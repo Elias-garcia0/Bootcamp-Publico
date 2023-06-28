@@ -1,0 +1,99 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    margin: 0;
+    background-color: #efefef;
+}
+header{
+    background-color: #364552;
+    color: white;
+    padding: 4rem;
+   background-size: cover;
+   font-size: 3rem;
+   text-align: center;
+}
+header img{
+
+    border-radius: 100%;
+    height: 300px;
+    float: left;
+}
+
+header h1{
+    font-size: 4rem;
+    text-align: center;
+   
+    border-radius: 0.5rem;
+}
+span{
+    color: cornflowerblue;
+}
+.container{
+    font-size: larger;
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container h2{
+    text-align: center;
+}
+table{
+    width: 1000px;
+    text-align: center;
+     background-color: #fff;
+     margin: 0 auto;
+     border-radius: 0.5rem;
+}
+
+
+table:hover{
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+  
+}
+h3{
+    background-color: #364552;
+    border-radius: 50%;
+}
+ul{
+list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+.encuesta{
+    background-color: #364552;
+    border-radius: 5%;
+    justify-content: center;
+}
+.encuesta #submit{
+    width: 200px;
+    border-radius: 20%;
+}
+.encuesta #submit:hover{
+    background-color: cornflowerblue;
+}
+
+
+footer{
+    background-color: #222;
+    color: #fff;
+    padding: 0.5rem;
+
+}
+
+footer section{
+ float: right;
+    padding: 0;
+   
+}
+footer a{
+    transition: color 0.3s ease;
+    color: #fff;
+    text-decoration: none;
+}
+footer a:hover{
+    color: cornflowerblue;
+}
