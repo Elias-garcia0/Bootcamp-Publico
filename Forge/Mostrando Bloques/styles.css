@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+#container{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+body{
+    background-color: #d4d2ae;
+    width: 970px;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+header img{
+    max-width: 100px;
+}
+.block img{
+width: 100px;
+margin: 2px;
+padding: 8px;
+
+}
+.blue{
+    width: 125px;
+    height: 125px;
+    background-color: #82b4ee;
+    border: black solid 3px;
+    margin: 3px;
+}
+.pink{
+    width: 125px;
+    height: 125px;
+    background-color: #f36870;
+    border: black solid 3px;
+    margin: 3px;
+}
+.column{
+    display: inline-block;
+    vertical-align: top;
+}
