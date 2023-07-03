@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+  }
+  
+  body{
+    width: 970px;
+  }
+  
+  .blue {
+    color: #22659e;
+  }
+  .red{
+    color:#d9231c;
+  }
+  
+  header {
+    position: relative; 
+    z-index: 1; 
+  }
+  
+  header img {
+    width: 100px;
+    display: inline;
+    vertical-align: middle;
+    margin-bottom: -20px; 
+    position: relative; 
+    z-index: 2; 
+  }
+  
+  header h1 {
+    display: inline-block;  
+    color: #474747;
+    padding: 5px;
+    position: relative;
+    vertical-align: bottom;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  header h2 {
+    padding: 20px;
+    color: #c9d9e6;
+    width: 970px;
+    background: linear-gradient(#26679f, #5283ad, #24679f);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative; 
+    z-index: -1; 
+  }
+  
+  header h2::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    width: 100px;
+    height: 100px;
+    background: url(./images/globe.png) no-repeat;
+  }
+ 
+  #carrer{
+    margin: 20px;
+    width: 200px;
+    flex-direction: column;
+   
+  }
+  #carrer h2{
+    padding: 15px;
+  }
+  #carrer p{
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+ .boton{
+    width: 200px;
+    height: 40px;
+    margin: 2px;
+    box-shadow: 1px 1px black;
+    border-radius: 5px;
+    color: #ffffff;
+ }
+ #blue{
+background:linear-gradient(#6398c4,#4782b3,#23669e)
+ }
+ #orange{
+    background:linear-gradient(#eaac53,#ed972a,#f07500)
+ }
+ #hr{
+    margin-top: 30px;
+    margin-bottom:10px;
+    width: 100%;
+    border: black solid 1px;
+ }
+ #img-carrer{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    width: 200px;
+    background-image: url(./images/ad_background.png);
+ }
+ #img-carrer img{
+    width: 100px;
+   
+ }
+ #cyan{
+   width: 160px;
+   margin-bottom: 30px;
+    background: linear-gradient(#75d0df,#3ac9df,#00c0df);
+ }
+ #container{
+  width: 100%;
+  flex-direction: column;
+  margin: 20px;
+ 
+ }
+ #sup img{
+  width: 26px;
+  height: 26px;
+ 
+ }
+ #home{
+  display: flex;
+ vertical-align: middle;
+ 
+ }
+#home p{
+  padding-top: 5px;
+}
+#todo{
+  display: flex;
+}
+
+#contact p{
+  color: #636363;
+  font-size: small;
+  margin: 0;
+ 
+}
+.celeste{
+color: #00c0df;
+}
+.black{
+  font-weight: bold;
+  color: black;
+}
+
+#sup{
+  display: flex;
+  justify-content: space-between;
+}
+#phone{
+  display: flex;
+}
+#phone img{
+  margin-right: 5px;
+}
+#description h2{
+  margin: 10px;
+  text-align: start;
+}
+p{
+  margin: 5px;
+}
+.lista{
+  margin-left: 50px;
+  margin-bottom: 30px;
+  
+}
+#description img{
+
+  margin: 20px;
+  width: 300px;
+}
+#centrar{
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+#pie{
+  
+  margin-left: 20px;
+  display: flex;
+  border-width: 6px;
+  border-style: solid;
+  border-color: #0085e0;
+}
+#tecnologias img{
+  width: 150px;
+}
+#tecnologias-description{
+  margin: 10px;
+}
